@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Criptos</title>
+
+    <link rel="stylesheet" href="estilo/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/serverStatus.css">
+    <link rel="stylesheet" href="estilo/inputs.css">
+</head>
+<body>
+    <main>
+        <section class="serverConnection">
+            <div class="serverConnection__status">
+                <p lang="en">SERVER STATUS:</p>
+            </div>
+            <div class="serverConnection__offline">
+                <p lang="en">OFFLINE</p>
+            </div>
+            <div class="serverConnection__success">
+                <p lang="en">OK</p>
+            </div>
+            <div class="serverConnection__error">
+                <p lang="en">ERROR</p>
+            </div>
+        </section>
+        <section class="inputsDoUsuario">
+            <div class="inputsDoUsuario__filho moeda">
+                <label for="moeda">Qual moda você possui ?</label>
+                <input type="text" name="moeda" id="moeda">
+            </div>
+            <div class="inputsDoUsuario__filho quantidade">
+                <label for="quantidade">E quantas moedas você possui ?</label>
+                <input type="text" name="quantidade" id="quantidade">
+            </div>
+        </section>
+        <section>
+            <table>
+                <tr>
+                    <th>COD</th>
+                    <th>Nome</th>
+                    <th>Valor</th>
+                </tr>
+                <tr>
+                    <td>ETH</td>
+                    <td>Etherium</td>
+                    <td>R$ 17.826,00</td>
+                </tr>
+            </table>
+        </section>
+
+
+
+    </main>
+    <script src="script/apiCripto.js" type="text/javascript"></script>
+</body>
+</html>

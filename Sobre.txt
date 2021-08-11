@@ -1,0 +1,47 @@
+1 - Qual é o Problema
+	calcular o valor em reais que o usuario tem em cripto.
+
+	
+	2- Como sabemos o valor da cripto em reais ?
+		consultamos em uma empresa que atualiza isso sempre
+
+		3- como sabemos quais criptos o usuario tem ?
+			perguntamos ao usuario
+
+		4- como sabremos quantas criptos o usuario tem ?
+			perguntamos ao usuario
+
+			5- como transformamos o valor da cripto em reais ?
+				valor da Moeda em reais * pela quantidade de moedas.
+
+
+
+
+
+------Logica-------
+
+
+1-Conectar a API da coinMarketCap
+
+	1.1 - se der sucesso, ir ao passo 2
+	1.2 - se der erro retornar msg de erro
+
+2-Guardar os dados retornados
+3-Perguntar ao usuario quais criptos ele tem
+
+	3.1 - se informar, avança ao passo 4
+	3.2 - se der erro, pedir ao usuario para preencher o dado
+
+4-Perguntar quntas criptos o usuario tem
+
+	4.1 - se informar, avança ao passo 5
+	4.2 - se der erro, pedir ao usuario para preencher o dado
+
+5-Consultar o valor da moeda do usuario em reis
+	
+	5.1 - Se encontrar, ir ao passo 6
+	5.2 - se nao encontrar, iformar ao usuario
+	
+6-Guardar essa informaçao
+7-Calcular o valor da moeda do usuario em reais * a quantidade
+8-Mostrar o valor total para o usuario

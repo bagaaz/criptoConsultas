@@ -1,0 +1,29 @@
+.serverConnection {
+    background-color: #c0c0c0;
+    display: block;
+    padding: 1rem 0;
+    text-align: center;
+    
+}
+.serverConnection__status{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: .5rem;
+}
+.serverConnection__offline {
+    color: #f75;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.serverConnection__success {
+    color: #5f5;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: none;
+}
+.serverConnection__error {
+    color: #f55;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: none;
+}

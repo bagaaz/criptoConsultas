@@ -1,0 +1,27 @@
+.inputsDoUsuario {
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputsDoUsuario__filho {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+
+}
+.inputsDoUsuario__filho input {
+    width: 30%;
+    height: 1.4rem;
+    margin-top: 1rem;
+    border-radius: 0;
+    border: 1px solid #c0c0c0;
+}
+.inputsDoUsuario__filho input:focus {
+    outline: none !important;
+    border:2px solid #f75;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #f75;
+}
